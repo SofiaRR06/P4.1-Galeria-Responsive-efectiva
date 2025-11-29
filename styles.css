@@ -1,0 +1,33 @@
+:root{
+    --margin-grid: 80px;
+}
+
+.grid{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+}
+
+.card{
+    grid-column: span 3;
+}
+
+.card img{
+     width: 100%;
+}
+
+/* Tablet: 2 tarjeta por fila */
+@media (max-width: 1024px) {
+    .card {
+        grid-column: span 6; 
+    }
+}
+
+/* Móvil: 1 tarjeta por fila */
+@media (max-width: 600px) {
+    .card {
+        grid-column: span 12; 
+    }
+}
