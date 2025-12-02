@@ -1,5 +1,7 @@
 # Práctica 4.2: Galería de Imágenes Responsiva
 
+**GitHub Pages:** https://sofiarr06.github.io/P4.1-Galeria-Responsive-efectiva/
+
 ## **Descripción**
 
 El objetivo de esta práctica es crear una galería de imágenes responsiva y optimizada para dispositivos modernos. Los alumnos deberán realizar los siguientes pasos:
